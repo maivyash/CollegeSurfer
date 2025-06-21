@@ -3,7 +3,8 @@
 # 🎓📱 CollegeSurfer  
 ### *All-in-One College Management Android App*
 
-An Android app that simplifies and automates key college operations — from hostels to libraries, assignments to lost-and-found. Built with ❤️ using **Java**, **XML**, and **Firebase**.
+An Android app that simplifies and automates key college operations — from hostels to libraries, assignments to lost-and-found.  
+Built with ❤️ using **Java**, **XML**, and **Firebase**.
 
 ![Platform](https://img.shields.io/badge/platform-Android-green?logo=android)
 ![Built With](https://img.shields.io/badge/Built%20With-Java%20%7C%20XML%20%7C%20Firebase-blue?logo=androidstudio)
@@ -30,7 +31,8 @@ An Android app that simplifies and automates key college operations — from hos
 
 ## 🔐 Admin Panel System
 
-Each department has a **dedicated admin interface** — all accessible within a **unified app experience**. Role-based login ensures secure and streamlined management via **Firebase Realtime Database**.
+Each department has a **dedicated admin interface** — all accessible within a **unified app experience**.  
+Role-based login ensures secure and streamlined management via **Firebase Realtime Database**.
 
 ---
 
@@ -39,15 +41,15 @@ Each department has a **dedicated admin interface** — all accessible within a 
 | 📱 Screen Name             | 🖼️ Screenshot |
 |---------------------------|---------------|
 | **College Time Table**        | ![TimeTable](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023955.png?raw=true) |
-| **Student Dashboard**     | ![Dashboard](https://raw.githubusercontent.com/maivyash/CollegeSurfer/refs/heads/main/Screen%20SHot/Screenshot_20240228_023709.png) |
-| **Hostel Management**     | ![Hostel](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023723.png?raw=true) |
-| **Hostel Admission Form** | ![Admission](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023812.png?raw=true) |
-| **Hostel Students List**  | ![Students](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023909.png?raw=true) |
-| **Co-operative Store**    | ![Store](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_024042.png?raw=true) |
-| **Assignments Section**   | ![Assignments](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_024007.png?raw=true) |
-| **Attendance Upload**     | ![Attendance](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023930.png?raw=true) |
-| **Lost & Found**          | ![Lost](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_024025.png?raw=true) |
-| **Event Announcements**   | ![Events](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023939.png?raw=true) |
+| **Student Dashboard**         | ![Dashboard](https://raw.githubusercontent.com/maivyash/CollegeSurfer/refs/heads/main/Screen%20SHot/Screenshot_20240228_023709.png) |
+| **Hostel Management**         | ![Hostel](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023723.png?raw=true) |
+| **Hostel Admission Form**     | ![Admission](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023812.png?raw=true) |
+| **Hostel Students List**      | ![Students](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023909.png?raw=true) |
+| **Co-operative Store**        | ![Store](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_024042.png?raw=true) |
+| **Assignments Section**       | ![Assignments](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_024007.png?raw=true) |
+| **Attendance Upload**         | ![Attendance](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023930.png?raw=true) |
+| **Lost & Found**              | ![Lost](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_024025.png?raw=true) |
+| **Event Announcements**       | ![Events](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023939.png?raw=true) |
 
 🔗 **[View All Screenshots →](https://github.com/maivyash/CollegeSurfer/tree/main/Screen%20SHot)**
 
