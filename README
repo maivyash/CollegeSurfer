@@ -1,34 +1,38 @@
 <div align="center">
 
-# 🎓📱 CollegeSurfer — All-in-One College Management Android App
+# 🎓📱 CollegeSurfer  
+### *All-in-One College Management Android App*
 
-An Android app that simplifies and automates key college operations — from hostels to libraries, assignments to lost-and-found. Built with ❤️ using Java, XML, and Firebase.
+An Android app that simplifies and automates key college operations — from hostels to libraries, assignments to lost-and-found. Built with ❤️ using **Java**, **XML**, and **Firebase**.
 
 ![Platform](https://img.shields.io/badge/platform-Android-green?logo=android)
-![Tech](https://img.shields.io/badge/Built_with-Java_&_Firebase-blue?logo=java)
+![Built With](https://img.shields.io/badge/Built%20With-Java%20%7C%20XML%20%7C%20Firebase-blue?logo=androidstudio)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 </div>
 
 ---
 
-## 📲 Features Overview
+## 🚀 Features Overview
 
-| ✨ Module | ⚡ Description |
-|----------|----------------|
-| 🏨 **Hostel Management** | Handles hostel admissions, allocations, and status tracking from one screen. |
-| 📚 **Library System** | Real-time open/close status, stock information, and notifications. |
-| 🛒 **Co-op Store Management** | Same as the library module — but for your college's co-op store! |
-| 📑 **Assignments, Attendance & Results** | Faculty can upload all academic updates; students can instantly access them. |
-| 📦 **Lost & Found** | Lost something? Post it! Found something? Help return it. |
-| 📘 **Book Buy & Sell** | Peer-to-peer platform for students to trade old/new books. |
-| 🎉 **Events Feed** | View and get notified about all upcoming college events. |
+| ✨ Module                     | ⚡ Description |
+|-----------------------------|----------------|
+| 🏨 **Hostel Management**     | Handles hostel admissions, student listings, and management in one place. |
+| 📚 **Library System**        | Real-time open/close status, book availability, and alerts. |
+| 🛒 **Co-op Store Management**| View store open/close timings and current inventory. |
+| 📑 **Assignments & Attendance** | Faculty can upload assignments, attendance, and exam results. |
+| 📦 **Lost & Found**          | Lost something? Post it. Found something? Notify others. |
+| 📘 **Book Buy & Sell**       | Peer-to-peer marketplace for buying/selling old and new books. |
+| 🎉 **Events Feed**           | View and get notified about all campus events instantly. |
 
 ---
 
 ## 🔐 Admin Panel System
 
-Each department has a **dedicated admin interface**, yet everything is **unified in a single app**. Admins log in to their panel and manage
+Each department has a **dedicated admin interface** — all accessible within a **unified app experience**. Role-based login ensures secure and streamlined management via **Firebase Realtime Database**.
+
+---
 
 ## 📸 Screenshots
 
@@ -37,54 +41,26 @@ Each department has a **dedicated admin interface**, yet everything is **unified
 | **College Time Table**        | ![TimeTable](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023955.png?raw=true) |
 | **Student Dashboard**     | ![Dashboard](https://raw.githubusercontent.com/maivyash/CollegeSurfer/refs/heads/main/Screen%20SHot/Screenshot_20240228_023709.png) |
 | **Hostel Management**     | ![Hostel](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023723.png?raw=true) |
-| **Hostel Addimision form**     | ![Hostel](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023812.png?raw=true) |
-| **Hostell Students List** | ![HOSTELL](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023909.png?raw=true) |
+| **Hostel Admission Form** | ![Admission](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023812.png?raw=true) |
+| **Hostel Students List**  | ![Students](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023909.png?raw=true) |
 | **Co-operative Store**    | ![Store](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_024042.png?raw=true) |
 | **Assignments Section**   | ![Assignments](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_024007.png?raw=true) |
 | **Attendance Upload**     | ![Attendance](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023930.png?raw=true) |
-| **Lost & Found**          | ![LostAndFound](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_024025.png?raw=true) |
+| **Lost & Found**          | ![Lost](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_024025.png?raw=true) |
 | **Event Announcements**   | ![Events](https://github.com/maivyash/CollegeSurfer/blob/main/Screen%20SHot/Screenshot_20240228_023939.png?raw=true) |
 
+🔗 **[View All Screenshots →](https://github.com/maivyash/CollegeSurfer/tree/main/Screen%20SHot)**
 
-# for more visit (https://github.com/maivyash/CollegeSurfer/tree/main/Screen%20SHot
-)
-You can record short videos using Screen Record on Android or insert animated GIFs from tools like Licecap.
+---
 
-🛠️ Getting Started
+## 🛠️ Getting Started
 
+### 🔧 Clone & Setup
+
+```bash
 # Clone the repo
 git clone https://github.com/maivyash/CollegeSurfer.git
 
-# Open the project in Android Studio
+# Open in Android Studio
 # Connect your Firebase project
-# Sync Gradle and run on emulator or device
-✅ Make sure to:
-
-Connect Firebase Authentication and Database in your Firebase console
-
-Update the google-services.json file
-
-Add proper rules to Firebase DB and Storage
-
-🤝 Contributions Welcome!
-Contributions are what make open-source great! If you'd like to fix a bug or add a feature:
-
-Fork this repo
-
-Create a new branch
-
-Push your changes and submit a pull request
-
-🧠 Future Enhancements
-Dark Mode 🌙
-
-Notification Scheduler ⏰
-
-Admin Dashboard Web App 🌐
-
-Material 3 UI Redesign 🎨
-
-Analytics Dashboard 📊
-
-👨‍💻 Author
-Made with 💙 by Yash (maivyash)
+# Sync Gradle & Run on device or emulator
