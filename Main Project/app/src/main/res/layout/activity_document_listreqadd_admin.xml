@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/cutout2_layout"
+    tools:context=".hostelladmin.document_listreqadd_admin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/cutout04"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textColor="@color/black"
+            android:text="Student Request"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="149dp"
+        android:layout_height="149dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp">
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:id="@+id/imagestud"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:id="@+id/name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:id="@+id/branch"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:id="@+id/addmisonyear"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:id="@+id/eno"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:id="@+id/DENid"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:id="@+id/permanentaddress"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:id="@+id/currentaddress"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:id="@+id/adharnumber"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:id="@+id/mobileno"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/doc"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:gravity="center"
+                android:text="SEE DOCUMENTS"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/alotroomnumber"
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/background_p1"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Room Number"
+                android:inputType="number"
+                android:padding="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/white"
+                android:textColorHint="#ffffff"
+                android:textSize="15sp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textColor="@color/green"
+        android:textSize="15sp"
+        android:id="@+id/accept"
+        android:background="@drawable/ripple_3"
+        android:backgroundTint="@color/black"
+        app:backgroundTint="@color/black"
+        android:text="ACCEPT" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:backgroundTint="@color/black"
+        app:backgroundTint="@color/black"
+        android:background="@drawable/ripple_2"
+        android:textSize="15sp"
+        android:textColor="@color/red"
+        android:layout_marginStart="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="24dp"
+        android:id="@+id/reject"
+        android:text="REJECT" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/cutoutfor_loop"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    tools:context=".principleadmin.eventview">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:text="EVENT NAME: "
+        android:id="@+id/eventnameview"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:text="EVENT DESCRIPTION: "
+        android:id="@+id/eventdescview"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:text="EVENT LINK: "
+        android:id="@+id/eventlinkview"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="      OPEN PDF"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/pdf"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/pdfevent"
+        android:background="@drawable/cutout04"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_delete_forever_24"
+        android:drawableRight="@drawable/baseline_delete_forever_24"
+        android:text="DELETE"
+        app:cornerRadius="15sp"
+        android:layout_gravity="center"
+        app:rippleColor="@color/red"
+        app:backgroundTint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/deleteevent"/>
+
+
+
+</LinearLayout>

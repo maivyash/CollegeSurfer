@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    tools:context=".libraryadmin.librarybooksview">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cutoutfor_loop"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:stretchColumns="*">
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/numberoflib"
+                android:layout_width="0dp"
+                android:padding="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="NUMBER: " />
+
+            <TextView
+                android:id="@+id/nameoflib"
+                android:layout_width="0dp"
+               android:padding="20dp"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="NAME: " />
+        </TableRow>
+
+        <!-- Second row -->
+        <TableRow>
+            <TextView
+                android:id="@+id/writeroflib"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:text="WRITER: " />
+
+            <TextView
+                android:id="@+id/editionoflib"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="15sp"
+
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:text="EDITION: " />
+        </TableRow>
+
+        <!-- Third row -->
+        <TableRow>
+            <TextView
+                android:id="@+id/genreaoflib"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:text="GENRE: " />
+        </TableRow>
+
+    </TableLayout>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stock"
+        android:id="@+id/stockoflib"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="150dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="10dp"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/black"
+        app:rippleColor="@color/red"
+        app:cornerRadius="10dp"
+        android:text="delete"
+        android:id="@+id/deleteoflib"/>
+
+
+
+
+
+
+</LinearLayout>

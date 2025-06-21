@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".facultyadmin.assingmentview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/assingmentviewpdf"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="      OPEN PDF"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/pdf"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/cutout04"/>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:text="Subject Code: "
+        android:id="@+id/assingmentviewcode"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assingment Number: "
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:id="@+id/assingmentviewnumber"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assingment Name: "
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:id="@+id/assingmentviewname"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Date: "
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:id="@+id/assingmentviewdate"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scheme: "
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:id="@+id/assingmentviewscheme"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teacher Name: "
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:id="@+id/assingmentviewteachname"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/black"
+        android:layout_marginTop="10dp"
+        app:rippleColor="@color/red"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        app:cornerRadius="10dp"
+        android:text="Delete"
+        android:id="@+id/deleteassingment"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Regestration_Page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Registration"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+
+        <EditText
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:id="@+id/xmlname"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_text"
+
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Full Name"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColorHint="#ffffff" />
+
+
+        <EditText
+            android:id="@+id/xmlreno"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_text"
+            android:drawableLeft="@drawable/baseline_numbers_24"
+            android:drawablePadding="16dp"
+
+            android:ems="10"
+            android:hint="Enrollment Number"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:id="@+id/rmail"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_text"
+
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="E-mail ID"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColorHint="#ffffff" />
+
+
+        <EditText
+            android:drawableLeft="@drawable/baseline_password_24"
+            android:id="@+id/rpass"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_text"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColorHint="#ffffff" />
+
+
+        <EditText
+            android:drawableLeft="@drawable/baseline_password_24"
+            android:id="@+id/rcpass"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_text"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColorHint="#ffffff" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="85dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="3dp"
+                android:layout_margin="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="@drawable/design"></Spinner>
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="85dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="3dp"
+                android:layout_margin="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="@drawable/design"></Spinner>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <EditText
+            android:drawableLeft="@drawable/baseline_calendar_month_24"
+            android:id="@+id/xmlryear"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_text"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Addmission Year"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColorHint="#ffffff" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/rbtn"
+            style="@android:style/Widget.Button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/ripple_3"
+            app:backgroundTint="@color/black"
+            android:text="Register"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

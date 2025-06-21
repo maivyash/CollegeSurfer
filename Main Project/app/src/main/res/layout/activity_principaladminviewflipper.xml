@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".principleadmin.principaladminviewflipper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            app:counterEnabled="true"
+            style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_marginRight="10dp"
+            app:endIconMode="clear_text">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ENTER LINK"
+                android:id="@+id/viewflipperlink"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageviewflippertemp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="160dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/black"
+        android:layout_marginTop="10dp"
+        app:cornerRadius="10dp"
+        android:id="@+id/viewflipperselect"
+        android:text="SELECT IMAGE" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/cutout04"
+            android:id="@+id/viewflipperlinear" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:backgroundTint="@color/black"
+        app:cornerRadius="10dp"
+        android:background="@drawable/ripple_3"
+        android:id="@+id/viewflipperupload"
+        android:text="UPLOAD" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:text="No available Flippers"
+        android:id="@+id/noavlflipper"/>
+
+    </LinearLayout>
+</ScrollView>

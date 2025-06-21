@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".homepagestud.ProfileFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Profile "
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/cutout04_bluegraident">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:text="UID"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:id="@+id/profilefragmentuid"/>
+
+        </HorizontalScrollView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:id="@+id/nameprofile"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enrollment Number"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:id="@+id/enoprofile"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Branch"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:id="@+id/branchprofile"/>
+
+        </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:padding="8dp"
+        android:layout_margin="32dp"
+        app:cornerRadius="10dp"
+        android:backgroundTint="@color/black"
+        app:rippleColor="@color/red"
+        android:textColor="@color/white"
+        android:textSize="15sp">
+    </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/notificationbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOTIFICATION MANAGER"
+            android:padding="8dp"
+            android:layout_margin="32dp"
+            app:cornerRadius="10dp"
+            android:backgroundTint="@color/black"
+            app:rippleColor="@color/red"
+            android:textColor="@color/white"
+            android:textSize="15sp">
+        </com.google.android.material.button.MaterialButton>
+
+
+    </LinearLayout>
+
+</ScrollView>

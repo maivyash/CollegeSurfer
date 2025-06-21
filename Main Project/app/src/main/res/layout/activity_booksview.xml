@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/cutout04"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp"
+    android:padding="20dp"
+    android:layout_marginBottom="20dp"
+    tools:context=".bookbuysell.booksview">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/getbooksellsubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="SUBJECT:" />
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/getbooksellcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="CODE:" />
+
+    <TextView
+        android:id="@+id/getbooksellscheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="SCHEME:" />
+
+    <TextView
+        android:id="@+id/getbooksellbranch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="BRANCH:" />
+
+
+    <TextView
+        android:id="@+id/getbooksellsemester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="SEMESTER:" />
+
+    <TextView
+        android:id="@+id/getbooksellyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="PURCHASE YEAR:" />
+
+    <TextView
+        android:id="@+id/getbooksellpublication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="PUBLICATION:" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/getbooksellname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="SELLER NAME:" />
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/getbooksellcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="SELLER CONTACT:" />
+    <com.google.android.material.button.MaterialButton
+        app:backgroundTint="@color/black"
+        android:background="@drawable/ripple_2"
+        app:cornerRadius="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rippleColor="@color/red"
+        android:text="DELETE BOOK"
+        android:id="@+id/delsell"/>
+
+
+</LinearLayout>

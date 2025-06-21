@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CPP"
+        tools:targetApi="25">
+        <activity
+            android:name=".NotificationManagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homepagestud.studtimetable"
+            android:exported="false" />
+        <activity
+            android:name=".homepagestud.studevent"
+            android:exported="false" />
+        <activity
+            android:name=".principleadmin.eventview"
+            android:exported="false" />
+        <activity
+            android:name=".principleadmin.principaladminevent"
+            android:exported="false" />
+        <activity
+            android:name=".principleadmin.adminexamsheduleupload"
+            android:exported="false" />
+        <activity
+            android:name=".homepagestud.studattendance"
+            android:exported="false" />
+        <activity
+            android:name=".facultyadmin.attendanceview"
+            android:exported="false" />
+        <activity
+            android:name=".homepagestud.studassingment"
+            android:exported="false" />
+        <activity
+            android:name=".facultyadmin.assingmentview"
+            android:exported="false" />
+        <activity
+            android:name=".facultyadmin.facultyadminassingment"
+            android:exported="false" />
+        <activity
+            android:name=".facultyadmin.facultyadminattendence"
+            android:exported="false" />
+        <activity
+            android:name=".cooperativeadmin.addstock_cooperative"
+            android:exported="false" />
+        <activity
+            android:name=".libraryadmin.librarybooksview"
+            android:exported="false" />
+        <activity
+            android:name=".libraryadmin.libraryadminaddbook"
+            android:exported="false" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".homepagestud.studCooperative"
+            android:exported="false" />
+        <activity
+            android:name=".homepagestud.studLibrary"
+            android:exported="false" />
+        <activity
+            android:name=".principleadmin.principaladminViewflipperview"
+            android:exported="false" />
+        <activity
+            android:name=".principleadmin.principaladminviewflipper"
+            android:exported="false" />
+        <activity
+            android:name=".homepagestud.studresultview"
+            android:exported="false" />
+        <activity
+            android:name=".facultyadmin.Facultyadminaddtestresult"
+            android:exported="false" />
+        <activity
+            android:name=".hostelladmin.boyshostelladmindocument"
+            android:exported="false" />
+        <activity
+            android:name=".girlhostelladmin.girlhostelladminmessbill"
+            android:exported="false" />
+        <activity
+            android:name=".girlhostelladmin.girlhostelladminpenalty"
+            android:exported="false" />
+        <activity
+            android:name=".girlhostelladmin.girlhostelladminrequestpendinglist"
+            android:exported="false" />
+        <activity
+            android:name=".girlhostelladmin.Girls_Hostelladmin"
+            android:exported="false" />
+        <activity
+            android:name=".principleadmin.adminsrolesdisplayview"
+            android:exported="false" />
+        <activity
+            android:name=".principleadmin.changerole"
+            android:exported="false" />
+        <activity
+            android:name=".bookbuysell.seebook"
+            android:exported="false" />
+        <activity
+            android:name=".bookbuysell.booksview"
+            android:exported="false" />
+        <activity
+            android:name=".bookbuysell.addbook"
+            android:exported="false" />
+        <activity
+            android:name=".hostelladmin.uploadmessbilladmin"
+            android:exported="false" />
+        <activity
+            android:name=".hostellstud.messbillstud"
+            android:exported="false" />
+
+        <meta-data
+            android:name="android.app.render_thread"
+            android:value="false" />
+
+        <activity
+            android:name=".hostelladmin.document_listreqadd_admin"
+            android:exported="false" />
+        <activity
+            android:name=".hostelladmin.Pendingreqaddmision"
+            android:exported="false" />
+        <activity
+            android:name=".hostellstud.penaltystudhostell"
+            android:exported="false" />
+        <activity
+            android:name=".hostelladmin.adminhostellpenalty"
+            android:exported="false" />
+        <activity
+            android:name=".hostellstud.documentlststudhostell"
+            android:exported="false" />
+        <activity
+            android:name=".lostfoundstud.item_document"
+            android:exported="false" />
+        <activity
+            android:name=".lostfoundstud.userscurrentlostreports"
+            android:exported="false" />
+        <activity
+            android:name=".lostfoundstud.formtoaddlostreport"
+            android:exported="false" />
+        <activity
+            android:name=".lostfoundstud.lostandfoundstud"
+            android:exported="false" />
+        <activity
+            android:name=".hostellstud.listhostellroomview"
+            android:exported="false" />
+        <activity
+            android:name=".hostellstud.hostellmainstud"
+            android:exported="false" />
+        <activity
+            android:name=".hostellstud.Hostellstud"
+            android:exported="false" />
+        <activity
+            android:name=".hostellstud.Enrollhostell"
+            android:exported="false" />
+        <activity
+            android:name=".openscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".facultyadmin.Faculty"
+            android:exported="false" />
+        <activity
+            android:name=".hostelladmin.Boys_Hostelladmin"
+            android:exported="false" />
+        <activity
+            android:name=".cooperativeadmin.coperative"
+            android:exported="false" />
+        <activity
+            android:name=".libraryadmin.Library"
+            android:exported="false" />
+        <activity
+            android:name=".Regestration_Page"
+            android:exported="false" />
+        <activity
+            android:name=".principleadmin.Principal_HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".homepagestud.Stud_HomePage"
+            android:exported="false" />
+    </application>
+
+</manifest>

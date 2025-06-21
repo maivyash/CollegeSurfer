@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lostfoundstud.item_document"
+    android:layout_marginTop="40dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="40dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/cutoutfor_loop">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATUS "
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/status"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="149dp"
+        android:layout_height="149dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/image"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name - "
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/textName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:text="Contact no. - "
+        android:textColor="@color/black"
+        android:id="@+id/textmo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="address - "
+        android:textColor="@color/black"
+        android:id="@+id/textaddress"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="Lost Date - "
+        android:textColor="@color/black"
+        android:id="@+id/textDate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="Item Description - "
+        android:textColor="@color/black"
+        android:id="@+id/textDesc"/>
+
+
+
+</LinearLayout>

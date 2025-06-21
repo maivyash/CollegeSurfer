@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".facultyadmin.Faculty"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculty Pannel"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="20dp"
+        android:src="@drawable/faculty"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Test Results"
+        app:cornerRadius="10dp"
+        app:backgroundTint="@color/black"
+        android:layout_gravity="center"
+        android:id="@+id/btnaddresult"></com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Assingment"
+        app:cornerRadius="10dp"
+        app:backgroundTint="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/facultyadminaddassingment"></com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Attendence"
+        app:cornerRadius="10dp"
+        app:backgroundTint="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/facultyadminaddattendence"></com.google.android.material.button.MaterialButton>
+
+
+
+</LinearLayout>

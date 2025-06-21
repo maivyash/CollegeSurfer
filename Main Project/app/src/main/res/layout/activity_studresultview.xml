@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepagestud.studresultview"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:drawableLeft="@drawable/baseline_menu_book_24"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="true"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="30sp"
+            android:text="  Result " />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"
+        android:text="Faculty name"
+        android:id="@+id/teacherid"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:text="Test Name"
+        android:id="@+id/resultname"
+        android:layout_marginTop="5dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:text="Test Subject Code"
+            android:id="@+id/resultsubjectcode"
+            android:layout_marginTop="5dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:text="Year and Month"
+            android:id="@+id/resultyear"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:text="BRANCH CODE"
+            android:id="@+id/branchcode"
+            android:layout_marginTop="5dp" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/resultimage"
+        android:textStyle="bold|italic"
+        android:text="      OPEN PDF"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/pdf"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/cutout04"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            app:rippleColor="@color/red"
+            app:backgroundTint="@color/black"
+            android:layout_gravity="center"
+            app:cornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:text="DELETE"
+            android:id="@+id/deleteresult"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

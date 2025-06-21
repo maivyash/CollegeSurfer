@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".lostfoundstud.formtoaddlostreport">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+                android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Add your report here "
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginStart="24dp"
+         android:layout_marginTop="25dp"
+         android:layout_marginEnd="24dp"
+             android:orientation="horizontal">
+
+             <TextView
+                 android:layout_width="150dp"
+                 android:layout_height="wrap_content"
+                 android:textStyle="bold|italic"
+                     android:layout_marginLeft="20dp"
+                 android:layout_gravity="center"
+                 android:text="Select Report Type -->"   />
+
+        <Spinner
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/cutout04"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/lostfoundspinner"/>
+     </LinearLayout>
+
+        <EditText
+            android:id="@+id/lostnewreportname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/squarecircle_outline"
+            android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Enter Your Name "
+            android:inputType="text"
+            android:padding="16dp"
+            android:textSize="15sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lostnewreportdate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/squarecircle_outline"
+            android:drawableLeft="@drawable/baseline_date_range_24"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Enter Lost Date (DD-MM-YYYY) "
+            android:inputType="date"
+            android:padding="16dp"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/lostnewreportaddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/squarecircle_outline"
+            android:drawableLeft="@drawable/baseline_share_location_24"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Enter Your Address "
+            android:inputType="text"
+            android:padding="16dp"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/mobileno"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/squarecircle_outline"
+            android:drawableLeft="@drawable/numbers"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Enter Contact Number "
+            android:inputType="number"
+            android:padding="16dp"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/descriptionofnewlostreport"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/squarecircle_outline"
+            android:drawableLeft="@drawable/baseline_description_24"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Describe Your Item Here "
+            android:inputType="text"
+            android:padding="16dp"
+            android:textSize="15sp" />
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/photoofnewlostreport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="24dp"
+                    app:rippleColor="@color/green"
+                    android:drawableLeft="@drawable/baseline_image_24"
+                    android:drawablePadding="16dp"
+                    android:hint="Add image"
+                    android:inputType="text"
+                    android:padding="16dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#ffffff"
+                    android:textSize="15sp"
+                    app:backgroundTint="@color/black"
+                    tools:layout_editor_absoluteX="32dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/submitnewlostreport"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/black"
+            android:text="Submit"
+            android:textSize="15sp"
+            app:cornerRadius="10dp"
+            android:textStyle="bold" />
+
+        </LinearLayout>
+</ScrollView>

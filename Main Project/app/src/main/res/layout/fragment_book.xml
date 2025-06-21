@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="55dp"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bookbuysell.BookFragment"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:drawableLeft="@drawable/lib_books"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="true"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="30sp"
+        android:text="  Sell Books " />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:backgroundTint="@color/black"
+        android:background="@drawable/ripple_effect"
+        app:cornerRadius="15dp"
+        android:id="@+id/addbooks"
+        app:backgroundTint="@color/black"
+        android:elevation="4dp"
+        android:drawableLeft="@drawable/add_box"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="Add Your Book"></com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:backgroundTint="@color/black"
+        app:cornerRadius="15sp"
+        android:background="@drawable/ripple_effect"
+        app:backgroundTint="@color/black"
+        android:layout_marginTop="20sp"
+        android:drawableLeft="@drawable/book"
+        android:id="@+id/seesellbooks"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Your Books On sell"></com.google.android.material.button.MaterialButton>
+
+    <LinearLayout
+        android:id="@+id/booksview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/nobooktosell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="100sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:text="No books are on sale right now!!" />
+
+
+</LinearLayout>
+    </ScrollView>

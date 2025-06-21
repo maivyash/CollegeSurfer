@@ -1,0 +1,8 @@
+<!-- square_outline.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@android:color/transparent" />
+    <stroke
+        android:width="2dp"/> <!-- Adjust the width of the outline -->
+    <corners android:radius="8dp" /> <!-- Adjust corner radius for a rounded rectangle -->
+</shape>

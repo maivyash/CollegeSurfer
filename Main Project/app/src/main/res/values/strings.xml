@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="note_the_above_detail_are_as_same_as_your_account_registration_detail_so_there_is_no_possibile_changes">Note: the above detail are as same as your Account registration detail so there is no possibile changes</string>
+
+    <string-array name="numbers">
+        <item>CO</item>
+        <item>IT</item>
+        <item>ME</item>
+        <item>EJ</item>
+        <item>CE</item>
+        <item>EE</item>
+    </string-array>
+
+    <string-array name="Genders">
+        <item>MALE</item>
+        <item>FEMALE</item>
+        <item>OTHERS</item>
+    </string-array>
+
+    <string-array name="scheme">
+        <item>G</item>
+        <item>I</item>
+        <item>K</item>
+    </string-array>
+
+    <string-array name="roles">
+        <item>Student</item>
+        <item>Principal</item>
+        <item>Boys Hostell Admin</item>
+        <item>Cooperative Admin</item>
+        <item>Faculty</item>
+        <item>Library Admin</item>
+        <item>Girl Hostell Admin</item>
+
+
+    </string-array>
+
+    <string-array name="semester">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>2024</item>
+        <item>2023</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>Older</item>
+
+    </string-array>
+
+    <string-array name="Publication">
+        <item>Technical</item>
+        <item>Nirali</item>
+        <item>Techknowledge</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="status">
+        <item>Founded</item>
+        <item>Lost</item>
+    </string-array>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+</resources>

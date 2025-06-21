@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".lostfoundstud.userscurrentlostreports">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="There is no current reports"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        android:textColor="#FD0000"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/textonyourreport"/>
+
+
+    <LinearLayout
+        android:id="@+id/usersreports"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/cutout2_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textName"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name - " />
+
+        <TextView
+            android:id="@+id/textmo"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:drawableLeft="@drawable/numbers"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Number - " />
+
+        <TextView
+            android:id="@+id/textaddress"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:drawableLeft="@drawable/baseline_share_location_24"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address - " />
+
+        <TextView
+            android:id="@+id/textDate"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:drawableLeft="@drawable/baseline_date_range_24"
+            android:layout_height="wrap_content"
+            android:text="Lost Date - " />
+
+        <TextView
+            android:id="@+id/textDesc"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_description_24"
+            android:text="Item Description - " />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/deletereportbtn"
+            android:drawableRight="@drawable/baseline_delete_forever_24"
+            android:drawableLeft="@drawable/baseline_delete_forever_24"
+            android:gravity="center"
+            android:layout_gravity="center"
+            app:backgroundTint="@color/black"
+            android:background="@drawable/ripple_2"
+            app:cornerRadius="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELETE REPORT"
+            />
+    </LinearLayout>
+</LinearLayout>

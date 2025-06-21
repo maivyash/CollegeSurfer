@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".principleadmin.adminexamsheduleupload">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Add Exam Schedule"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/calendar_black"
+            android:layout_marginLeft="10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            app:backgroundTint="@color/black"
+            android:text="SELECT"
+            app:cornerRadius="10dp"
+            android:id="@+id/selecttimetable"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:cornerRadius="10dp"
+            app:backgroundTint="@color/black"
+            android:text="UPLOAD NEW TIME TABLE"
+            android:id="@+id/uploadexamtimetable"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:text="No Time Table Now"
+            android:id="@+id/notimetable"/>
+
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdftimetable"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:backgroundTint="@color/black"
+            android:text="DELETE"
+            app:cornerRadius="10dp"
+            app:rippleColor="@color/red"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/deletetimetable"/>
+
+    </LinearLayout>
+
+</ScrollView>

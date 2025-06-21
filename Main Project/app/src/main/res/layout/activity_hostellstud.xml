@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".hostellstud.Hostellstud"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hostellstud.Hostellstud"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/cutout04">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Form"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This page will be submitted only once, so fill the information carefully!!!"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#FF0000"
+            android:layout_marginBottom="10dp"
+            android:textSize="15sp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/cutout04">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="8sp"
+        android:text="Name - "
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/Hostellstudname"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enrolment no - "
+        android:padding="8sp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/Hostellstudeno"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Branch - "
+        android:padding="8sp"
+        android:textColor="@color/black"
+        android:id="@+id/Hostellstudcourse"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Addmision year - "
+        android:layout_marginBottom="10dp"
+        android:padding="8sp"
+        android:textColor="@color/black"
+        android:id="@+id/Hostellstudaddmisionyear"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/cutout_layout"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_p1"
+            android:drawableLeft="@drawable/id_24"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Addmission ID (DEN...)"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="#ffffff"
+            android:textSize="15sp"
+            android:id="@+id/DENid"/>
+
+        <EditText
+            android:id="@+id/parmanentaddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_p1"
+            android:drawableLeft="@drawable/baseline_add_location_24"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Permanent Address as per addhar card"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="#ffffff"
+            android:textSize="15sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_p1"
+            android:drawableLeft="@drawable/baseline_current_location_on_24"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Current Address"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="#ffffff"
+            android:textSize="15sp"
+            android:id="@+id/currentaddress"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_p1"
+            android:drawableLeft="@drawable/addhar_card_24"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Addhar Card no."
+            android:inputType="number"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="#ffffff"
+            android:textSize="15sp"
+            android:id="@+id/adharnumber"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_p1"
+            android:drawableLeft="@drawable/baseline_numbers_24"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Mobile No."
+            android:inputType="number"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="#ffffff"
+            android:textSize="15sp"
+            android:id="@+id/mobileno"
+            />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/getphoto"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="Add Photo" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/getMarksheet"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="Add Marksheet" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:text="Add ARC"
+                android:id="@+id/getARC"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:text="Add Addhar-Card"
+                android:id="@+id/getadhar"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Hostellenroll"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/cutout3_layout"
+            app:backgroundTint="@color/black"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:text="Submit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/baseline_safety_check_24"
+            android:text="Note: "
+            android:padding="8sp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textColor="#FD0000"
+            android:layout_marginBottom="10dp"
+            android:padding="8sp"
+            android:text="See the upper information below, this information will be forwarded in the further admission process.. Submit correct info otherwise your form will be rejected no refund will be granted."
+            android:textSize="15sp" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

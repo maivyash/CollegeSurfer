@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".principleadmin.Principal_HomePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:src="@drawable/hod">
+    </ImageView>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHANGE ROLE"
+        android:background="@drawable/ripple_effect"
+        app:backgroundTint="@color/black"
+        app:cornerRadius="15sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/principaladminchangerole">
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD IMAGES IN VIEW FLIPPER"
+        android:background="@drawable/ripple_effect"
+        app:backgroundTint="@color/black"
+        app:cornerRadius="15sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/principaladminviewflipper">
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPLOAD EXAM SHEDULE"
+        android:background="@drawable/ripple_effect"
+        app:backgroundTint="@color/black"
+        app:cornerRadius="15sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/principaladminexamshedule"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPLOAD EVENTS "
+        android:background="@drawable/ripple_effect"
+        app:backgroundTint="@color/black"
+        app:cornerRadius="15sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/principaladminevents"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/cutoutfor_loop"
+    tools:context=".principleadmin.adminsrolesdisplayview">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="Name: "
+        android:id="@+id/admindisplayname"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="Branch: "
+        android:id="@+id/admindisplaybranch"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="UID: "
+        android:id="@+id/admindisplayUID"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="Year Of Addmission: "
+        android:id="@+id/admindisplayyear"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="Enrollment Number: "
+        android:id="@+id/admindisplayeno"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="Role: "
+        android:id="@+id/admindisplayrole"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_background"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/admindisplayrolechangespinner"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        app:backgroundTint="@color/black"
+        app:cornerRadius="10dp"
+        android:textColor="@color/white"
+        android:text="CHANGE ROLE"
+        android:id="@+id/admindisplaychangerolebtn"
+        />
+    
+</LinearLayout>

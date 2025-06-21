@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".facultyadmin.attendanceview">
+
+
+    <TextView
+        android:id="@+id/pdfattendenceview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="      OPEN PDF"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/pdf"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/cutout04"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="NAME:"
+        android:id="@+id/attendenceviewteachname"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="SUBJECT CODE:"
+        android:id="@+id/attendenceviewcode"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BRANCH CODE:"
+        android:textSize="17sp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/attendenceviewbranch"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MONTH:"
+        android:textSize="17sp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/attendenceviewmonth"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        app:cornerRadius="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        app:backgroundTint="@color/black"
+        app:rippleColor="@color/red"
+        android:text="DELETE"
+        android:id="@+id/deleteattendence"/>
+
+
+</LinearLayout>
