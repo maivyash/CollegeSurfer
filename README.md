@@ -66,7 +66,7 @@ git clone https://github.com/maivyash/CollegeSurfer.git
 # Open in Android Studio
 # Connect your Firebase project
 # Sync Gradle & Run on device or emulator
-
+```
 
 
 📄 License
@@ -78,9 +78,7 @@ Feel free to fork ⭐ the repo or raise issues for any feature suggestion or bug
 
 Made with 💡 by @maivyash
 
-yaml
-Copy
-Edit
+
 
 ---
 
