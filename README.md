@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center"> 
 
 # 🎓📱 CollegeSurfer  
 ### *All-in-One College Management Android App*
